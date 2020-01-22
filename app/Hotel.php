@@ -7,6 +7,14 @@ use Illuminate\Database\Eloquent\Model;
 class Hotel extends Model
 {
     protected $fillable = [
-        'name'
+        'name',
+        'street',
+        'number',
+        'neighborhood',
+        'additional',
+        'zipcode',
+        'city',
+        'state',
+        'country'
     ];
 }
