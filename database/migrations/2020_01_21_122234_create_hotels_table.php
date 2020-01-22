@@ -24,6 +24,8 @@ class CreateHotelsTable extends Migration
             $table->string('city', 100);
             $table->string('state', 50);
             $table->string('country', 50);
+            $table->string('latitude', 20);
+            $table->string('longitude', 20);
             $table->timestamps();
         });
     }

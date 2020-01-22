@@ -15,6 +15,8 @@ class Hotel extends Model
         'zipcode',
         'city',
         'state',
-        'country'
+        'country',
+        'latitude',
+        'longitude'
     ];
 }
