@@ -13,8 +13,8 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::get('hotels', 'PlaceController@index');
-Route::get('hotels/{id}', 'PlaceController@show');
-Route::post('hotels', 'PlaceController@store');
-Route::put('hotels/{id}', 'PlaceController@update');
-Route::delete('hotels/{id}', 'PlaceController@delete');
+Route::get('hotels', 'HotelController@index');
+Route::get('hotels/{id}', 'HotelController@show');
+Route::post('hotels', 'HotelController@store');
+Route::put('hotels/{id}', 'HotelController@update');
+Route::delete('hotels/{id}', 'HotelController@delete');
