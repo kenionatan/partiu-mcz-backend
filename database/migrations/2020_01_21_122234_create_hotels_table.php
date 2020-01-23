@@ -19,7 +19,7 @@ class CreateHotelsTable extends Migration
             $table->string('street', 120);
             $table->string('number', 10);
             $table->string('neighborhood', 120);
-            $table->string('additional', 200);
+            $table->string('additional', 200)->nullable();
             $table->string('zipcode', 10);
             $table->string('city', 100);
             $table->string('state', 50);
