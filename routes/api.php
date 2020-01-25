@@ -14,7 +14,7 @@ use Illuminate\Http\Request;
 */
 
 Route::get('hotels', 'HotelController@index');
-Route::get('hotel/{id}', 'HotelController@show');
+Route::get('hotels/{id}', 'HotelController@show');
 Route::post('hotels', 'HotelController@store');
-Route::put('hotel/{id}', 'HotelController@update');
-Route::delete('hotel/{id}', 'HotelController@delete');
+Route::put('hotels/{id}', 'HotelController@update');
+Route::delete('hotels/{id}', 'HotelController@delete');
