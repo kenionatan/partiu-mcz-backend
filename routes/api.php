@@ -19,11 +19,14 @@ Route::post('hotels', 'HotelController@store');
 Route::put('hotels/{id}', 'HotelController@update');
 Route::delete('hotels/{id}', 'HotelController@delete');
 
-
+Route::get('restaurants', 'RestaurantController@index');
+Route::get('restaurants/{id}', 'RestaurantController@show');
+Route::post('restaurants', 'RestaurantController@store');
+Route::put('restaurants/{id}', 'RestaurantController@update');
+Route::delete('restaurants/{id}', 'RestaurantController@delete');
 
 Route::get('restaurant-categories', 'RestaurantCategoryController@index');
 Route::get('restaurant-categories/{id}', 'RestaurantCategoryController@show');
 Route::post('restaurant-categories', 'RestaurantCategoryController@store');
 Route::put('restaurant-categories/{id}', 'RestaurantCategoryController@update');
 Route::delete('restaurant-categories/{id}', 'RestaurantCategoryController@delete');
-
